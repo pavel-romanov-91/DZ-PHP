@@ -1,1 +1,1 @@
-# DZ_PHP
+# DZ-PHP
