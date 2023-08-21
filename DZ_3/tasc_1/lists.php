@@ -13,7 +13,7 @@ if($conn->connect_error){
 }
 $sql = "SELECT * FROM cities";
 if($result = $conn->query($sql)){
-    $rowsCount = $result->num_rows; // количество полученных строк
+    $rowsCount = $result->num_rows; 
     echo "<p>Получено объектов: $rowsCount</p>";
     echo "<table><tr><th>Id</th><th>Город</th><th>Страна</th></tr>";
     foreach($result as $row){
